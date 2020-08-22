@@ -1,5 +1,4 @@
-# # Client Id: 307ede072aa741b192794aa2f34e5d34
-# # Secret Id: 2a79827beed842509790965a58b81689
+
 
 import spotipy.util as util
 import pandas as pd
@@ -21,9 +20,9 @@ scope = "user-library-read playlist-modify-private"
 
 OAuth = SpotifyOAuth(scope=scope,
         redirect_uri='http://localhost:8888/callback',
-        client_id = '307ede072aa741b192794aa2f34e5d34',
-        client_secret = '2a79827beed842509790965a58b81689',
-        username= 'alejandra.vlerick')
+        client_id = 'client_id',
+        client_secret = 'client_secret',
+        username= 'username')
 sp = spotipy.Spotify(auth_manager=OAuth)
 
 # results = sp.current_user_saved_tracks()
