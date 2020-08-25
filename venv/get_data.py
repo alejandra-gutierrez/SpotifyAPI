@@ -1,5 +1,3 @@
-
-
 import spotipy.util as util
 import pandas as pd
 import time
@@ -14,16 +12,15 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 from spotipy.oauth2 import SpotifyOAuth
 from tabulate import tabulate
-import spotipy
 
-scope = "user-library-read playlist-modify-private"
-
-OAuth = SpotifyOAuth(scope=scope,
-        redirect_uri='http://localhost:8888/callback',
-        client_id = 'client_id',
-        client_secret = 'client_secret',
-        username= 'username')
-sp = spotipy.Spotify(auth_manager=OAuth)
+# scope = "user-library-read playlist-modify-private"
+#
+# OAuth = SpotifyOAuth(scope=scope,
+#         redirect_uri='http://localhost:8888/callback',
+#         client_id = 'client_id',
+#         client_secret = 'client_secret',
+#         username= 'username')
+# sp = spotipy.Spotify(auth_manager=OAuth)
 
 # results = sp.current_user_saved_tracks()
 # for idx, item in enumerate(results['items']):
@@ -109,5 +106,9 @@ sp = spotipy.Spotify(auth_manager=OAuth)
 # print(tabulate(df[50:100], headers='keys', tablefmt='psql'))
 # df.to_csv('final_audio_features.csv', index=False)
 
-playlist = sp.current_user_playlists()
-print(playlist['items'][1]['id'])
+# playlist = sp.current_user_playlists()
+# print(playlist['items'][1]['id'])
+
+
+df = pd.read_csv("elbow_clusters.csv")
+print(df.head(20))

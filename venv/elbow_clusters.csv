@@ -1,0 +1,24 @@
+features,score,elbow
+"['danceability', 'speechiness', 'valence']",0.4033259830520832,3
+"['acousticness', 'instrumentalness', 'liveness']",0.49324783037782155,4
+"['danceability', 'instrumentalness', 'speechiness']",0.4319936994989827,4
+"['danceability', 'instrumentalness', 'liveness']",0.4125619819231025,4
+"['acousticness', 'instrumentalness', 'speechiness']",0.5084683250014191,5
+"['energy', 'instrumentalness', 'loudness']",0.5130704792302618,3
+"['instrumentalness', 'loudness', 'valence']",0.485115126492288,3
+"['danceability', 'energy', 'instrumentalness']",0.40160001953632607,3
+"['energy', 'loudness', 'speechiness']",0.4776894328942173,3
+"['acousticness', 'speechiness', 'valence']",0.40942474682022295,4
+"['liveness', 'loudness', 'valence']",0.41035827248125945,3
+"['acousticness', 'instrumentalness', 'valence']",0.4300543520891511,4
+"['liveness', 'speechiness', 'valence']",0.4319505969830357,4
+"['instrumentalness', 'speechiness', 'valence']",0.5038088133179464,4
+"['instrumentalness', 'liveness', 'valence']",0.46598271135326713,4
+"['loudness', 'speechiness', 'valence']",0.4396501147629364,3
+"['energy', 'instrumentalness', 'liveness']",0.44018178065874003,4
+"['energy', 'instrumentalness', 'speechiness']",0.49397454706215826,4
+"['energy', 'liveness', 'speechiness']",0.41334202278536974,4
+"['energy', 'instrumentalness', 'valence']",0.411557598448159,3
+"['danceability', 'instrumentalness', 'valence']",0.4309998296015755,3
+"['instrumentalness', 'speechiness', 'tempo']",0.43432334340328826,4
+"['instrumentalness', 'liveness', 'tempo']",0.4198291344648079,6
